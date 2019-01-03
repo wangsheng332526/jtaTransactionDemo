@@ -31,8 +31,8 @@
         <property name="xaProperties">
             <props>
                 <prop key="user">test</prop>
-                <prop key="password">gmys123456!@#</prop>
-                <prop key="URL">jdbc:mysql://192.168.245.44:3306/sso</prop>
+                <prop key="password">123456</prop>
+                <prop key="URL">jdbc:mysql://192.168.248.1:3306/sso</prop>
             </props>
         </property>     
         <property name="poolSize" value="10"/> 
@@ -48,9 +48,9 @@
         <property name="xaDataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource" />
         <property name="xaProperties">
             <props>
-                <prop key="user">sso</prop>
-                <prop key="password">GMYSdb@sso</prop>
-                <prop key="URL">jdbc:mysql://192.168.250.56:3306/sso</prop>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+                <prop key="URL">jdbc:mysql://192.168.248.2:3306/sso</prop>
             </props>
         </property>     
         <property name="poolSize" value="10"/>
